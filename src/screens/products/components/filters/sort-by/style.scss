@@ -1,0 +1,49 @@
+.sort-container {
+  width: 100%;
+  margin-bottom: 24px;
+
+  @media (max-width: 628px) {
+    margin-bottom: 0;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #697488;
+  }
+
+  .sort-card {
+    background-color: #ffffff;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+
+    .item-container {
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      margin-bottom: 18px;
+      flex-direction: row;
+      padding: 0;
+
+      .radio {
+        width: 18px;
+        height: 18px;
+      }
+
+      .text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        color: #525252;
+        margin-bottom: 0;
+        margin-left: 8px;
+      }
+    }
+  }
+}

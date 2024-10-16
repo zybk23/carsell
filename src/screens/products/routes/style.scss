@@ -1,0 +1,33 @@
+.layout-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 38px;
+
+  .layout-item-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+
+    @media (max-width: 628px) {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    padding: 0;
+    margin-top: 0;
+
+    @media (max-width: 628px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.brand-container {
+  width: 100%;
+  margin-bottom: 24px;
+
+  @media (max-width: 628px) {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #697488;
+  }
+
+  .brand-card {
+    background-color: #ffffff;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+
+    .search-input {
+      width: 180px;
+      height: 36px;
+      border: 1px solid #e2e2e2;
+      border-radius: 2px;
+      padding: 12px;
+      outline: none;
+      margin-bottom: 17px;
+      @media (max-width: 628px) {
+        width: 100%;
+      }
+    }
+  }
+}
