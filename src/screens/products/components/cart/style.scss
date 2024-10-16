@@ -169,6 +169,12 @@
   background-color: #fff;
   border-radius: 8px;
 
+  @media screen and (max-width: 1270px) {
+    &.visible-warning {
+      display: none;
+    }
+  }
+
   .warning {
     font-size: 14px;
     color: #ff9800;

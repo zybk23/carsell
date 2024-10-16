@@ -27,7 +27,7 @@ export const Cart = () => {
 
   if (cart.length === 0) {
     return (
-      <div className="warning-container">
+      <div className="warning-container visible-warning">
         <span className="warning">Sepetinizde ürün bulunmamaktadır </span>
       </div>
     );
